@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/shahrixmusic/myapp.git'
+                git 'https://github.com/SHX-Developer/MyApp.git'
             }
         }
         stage('Build Docker Image') {
