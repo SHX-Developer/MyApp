@@ -10,7 +10,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/SHX-Developer/MyApp.git',
-                    credentialsId: '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'
+                    credentialsId: 'git-token
             }
         }
         stage('Build Docker Image') {
