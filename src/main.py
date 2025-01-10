@@ -9,7 +9,7 @@ import json
 from data_processing import process_data
 
 
-#  Data example
+#  Example of data
 def main():
     data = [
         {"id": 1, "value": 100},
